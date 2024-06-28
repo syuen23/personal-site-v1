@@ -2,13 +2,13 @@ import Image from "next/image";
 
 export default function Home() {
     return (
-        <main className="flex min-h-screen flex-col items-center gap-4 p-24">
+        <main className="flex min-h-screen flex-col items-center gap-6 pt-24 p-5">
             <div className="text-5xl font-sans">Simon Yuen</div>
             <div>
                 <Image
                     src="/profile.jpeg"
                     alt=""
-                    width={100}
+                    width={200}
                     height={200}
                 ></Image>
             </div>
